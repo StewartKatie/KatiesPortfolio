@@ -1,0 +1,158 @@
+#navbar {
+    background-color: #525174;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar-links {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #bce784;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Avenir;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: #916283;
+  }
+  
+  .inner {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #welcome-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #348aa7;
+    viewport: fixed;
+    color: #bce784;
+    font-family: Avenir;
+    height: 100vh;
+    justify-content: center;
+    
+  }
+  
+  #name {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+  }
+  
+  #description {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: -40px;
+  }
+  
+  #projects {
+    display: flex;
+    background-color: #bce784;
+    height: 100vh;
+    color: #525174;
+    font-family: Georgia;
+    font-size: 35px;
+    justify-content: left;
+    padding: 80px;
+  }
+  
+  .project-tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  img {
+    width: 10in;
+    height: 5in;
+  }
+  #holla {
+    display: flex;
+    background-color: #916283;
+    height: 100vh;
+    font-family: Georgia;
+    font-size: 35px;
+    color: #bce784;
+    padding: 80px;
+  }
+  
+  @media screen and (min-width: 300px) {
+    .profiles {display: flex; flex-direction: row; justify-content: space-around; margin: 150px;}
+  }
+  
+  #profile-link {
+    background-color: #525174;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 200px;
+    font-size: 40px;
+    font-family: Avenir;
+    color: #916283;
+  }
+  
+  #linkedin {
+    background-color: #525174;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 200px;
+    font-size: 40px;
+    font-family: Avenir;
+    color: #916283;
+  }
+  
+  #facebook {
+    background-color: #525174;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 200px;
+    font-size: 40px;
+    font-family: Avenir;
+    color: #916283;
+  }
+  
+  #codepen {
+    background-color: #525174;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 200px;
+    font-size: 40px;
+    font-family: Avenir;
+    color: #916283;
+  }
+  
+  footer {
+    display: flex;
+    background-color: #348aa7;
+    justify-content: center;
+    font-family: Avenir;
+    padding: 10px
+  }
